@@ -1,0 +1,8 @@
+# Una regla por línea. Las líneas con # son comentarios.
+# Regla del WAF que tumbó Cloudflare el 2019-07-02 (post-mortem oficial):
+(?:(?:\"|'|\]|\}|\\|\d|(?:nan|infinity|true|false|null|undefined|symbol|math)|\`|\-|\+)+[)]*;?((?:\s|-|~|!|{}|\|\||\+)*.*(?:.*=.*)))
+# Ejemplos sanos:
+<script[^>]*>
+^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$
+# Clásico de ReDoS:
+^(\w+\s?)*$
