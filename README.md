@@ -15,6 +15,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 001 | autopsia | GitLab 2017 · `rm -rf` en la base de datos de producción | [go-guard](https://github.com/DesiAPG/tech-autopsy-gitlab-2017) (repo propio) |
 | 002 | autopsia | Cloudflare 2019 · una regex tumbó la red | [`autopsia/002-cloudflare-2019-regex`](autopsia/002-cloudflare-2019-regex) · `regex-guard` |
 | 003 | anatomia | Cloudflare · LavaRand: lámparas de lava para la criptografía | [`anatomia/003-cloudflare-lavarand`](anatomia/003-cloudflare-lavarand) · `entropy-mix` |
+| 004 | diagnostico | Cloudflare · Pingora: tiraron NGINX y escribieron su propio proxy | [`diagnostico/004-cloudflare-pingora`](diagnostico/004-cloudflare-pingora) · `pool-bench` |
 
 ## Uso
 Un solo módulo de Go (1.24+), sin dependencias externas:
@@ -23,6 +24,7 @@ git clone https://github.com/DesiAPG/tech-autopsy && cd tech-autopsy
 go test ./...
 go run ./autopsia/002-cloudflare-2019-regex/cmd/regex-guard bench
 go run ./anatomia/003-cloudflare-lavarand/cmd/entropy-mix demo
+go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
 ```
 
 Licencia MIT · Duván Marín
