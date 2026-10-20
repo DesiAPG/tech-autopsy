@@ -1,0 +1,33 @@
+package auth
+
+import (
+	crand "crypto/rand"
+	"encoding/hex"
+	"math/rand"
+)
+
+// Mal: math/rand es predecible si se conoce la semilla.
+func NewSessionToken() string {
+	b := make([]byte, 16)
+	for i := range b {
+		b[i] = byte(rand.Intn(256))
+	}
+	return hex.EncodeToString(b)
+}
+
+func resetCode() int {
+	otp := rand.Intn(1000000)
+	return otp
+}
+
+// Bien: crypto/rand.
+func NewAPIKey() string {
+	b := make([]byte, 32)
+	crand.Read(b)
+	return hex.EncodeToString(b)
+}
+
+// No es un secreto: math/rand está bien aquí.
+func shuffle(xs []int) {
+	rand.Shuffle(len(xs), func(i, j int) { xs[i], xs[j] = xs[j], xs[i] })
+}
