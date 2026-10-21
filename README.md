@@ -16,6 +16,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 002 | autopsia | Cloudflare 2019 · una regex tumbó la red | [`autopsia/002-cloudflare-2019-regex`](autopsia/002-cloudflare-2019-regex) · `regex-guard` |
 | 003 | anatomia | Cloudflare · LavaRand: lámparas de lava para la criptografía | [`anatomia/003-cloudflare-lavarand`](anatomia/003-cloudflare-lavarand) · `entropy-mix` |
 | 004 | diagnostico | Cloudflare · Pingora: tiraron NGINX y escribieron su propio proxy | [`diagnostico/004-cloudflare-pingora`](diagnostico/004-cloudflare-pingora) · `pool-bench` |
+| 005 | anatomia | Cloudflare · Quicksilver: un cambio en todo el planeta en segundos | [`anatomia/005-cloudflare-quicksilver`](anatomia/005-cloudflare-quicksilver) · `qs-mini` |
 
 ## Uso
 Un solo módulo de Go (1.24+), sin dependencias externas:
@@ -25,6 +26,7 @@ go test ./...
 go run ./autopsia/002-cloudflare-2019-regex/cmd/regex-guard bench
 go run ./anatomia/003-cloudflare-lavarand/cmd/entropy-mix demo
 go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
+go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
 ```
 
 Licencia MIT · Duván Marín
