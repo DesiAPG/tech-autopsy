@@ -24,6 +24,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | # | noticia | código |
 |---|---|---|
 | B01 | PHP2Shell · dos fallas críticas en el núcleo de PHP (CVE-2026-109618 y 109619) | [`boletin/b01-php-patch-check`](boletin/b01-php-patch-check) · `php-patch-check` |
+| B02 | Anthropic · Scion: por qué reemplazó Git en su monorepo | [`boletin/b02-content-addressed`](boletin/b02-content-addressed) · almacén direccionado por contenido |
 
 ## Uso
 Un solo módulo de Go (1.24+), sin dependencias externas:
@@ -36,6 +37,7 @@ go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
 go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./boletin/b01-php-patch-check --version 8.4.27
+go run ./boletin/b02-content-addressed checkout main
 ```
 
 Licencia MIT · Duván Marín
