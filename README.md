@@ -20,6 +20,11 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 005 | anatomia | Cloudflare · Quicksilver: un cambio en todo el planeta en segundos | [`anatomia/005-cloudflare-quicksilver`](anatomia/005-cloudflare-quicksilver) · `qs-mini` |
 | 006 | autopsia | Cloudflare 2025 · el archivo que duplicó su tamaño | [`autopsia/006-cloudflare-2025-feature-file`](autopsia/006-cloudflare-2025-feature-file) · `config-gate` |
 
+## Videos largos (YouTube)
+| # | caso | código |
+|---|---|---|
+| L01 | CrowdStrike 2024 · faltaba 1 casilla: el Channel File 291 | [`autopsia/L01-crowdstrike-2024`](autopsia/L01-crowdstrike-2024) · `content-gate` |
+
 ## Boletines
 | # | noticia | código |
 |---|---|---|
@@ -35,6 +40,7 @@ go run ./anatomia/003-cloudflare-lavarand/cmd/entropy-mix demo
 go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
 go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
+go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
 go run ./boletin/b01-php-patch-check --version 8.4.27
 ```
 
