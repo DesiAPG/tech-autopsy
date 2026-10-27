@@ -19,6 +19,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 004 | diagnostico | Cloudflare · Pingora: tiraron NGINX y escribieron su propio proxy | [`diagnostico/004-cloudflare-pingora`](diagnostico/004-cloudflare-pingora) · `pool-bench` |
 | 005 | anatomia | Cloudflare · Quicksilver: un cambio en todo el planeta en segundos | [`anatomia/005-cloudflare-quicksilver`](anatomia/005-cloudflare-quicksilver) · `qs-mini` |
 | 006 | autopsia | Cloudflare 2025 · el archivo que duplicó su tamaño | [`autopsia/006-cloudflare-2025-feature-file`](autopsia/006-cloudflare-2025-feature-file) · `config-gate` |
+| 009 | diagnostico | Discord · de 177 a 72 nodos: request coalescing delante de la base | [`diagnostico/009-discord-coalescing`](diagnostico/009-discord-coalescing) · `coalesce-bench` |
 
 ## Boletines
 | # | noticia | código |
@@ -34,6 +35,7 @@ go run ./autopsia/002-cloudflare-2019-regex/cmd/regex-guard bench
 go run ./anatomia/003-cloudflare-lavarand/cmd/entropy-mix demo
 go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
 go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
+go run ./diagnostico/009-discord-coalescing/cmd/coalesce-bench
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./boletin/b01-php-patch-check --version 8.4.27
 ```
