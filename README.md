@@ -22,6 +22,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 007 | autopsia | AWS 2017 · un input mal escrito apagó S3 en us-east-1 | [`autopsia/007-aws-2017-s3`](autopsia/007-aws-2017-s3) · `capacity-guard` |
 | 008 | anatomia | Figma · el último que escribe gana: multijugador sin OT | [`anatomia/008-figma-multiplayer`](anatomia/008-figma-multiplayer) · `multiplayer` |
 | 009 | diagnostico | Discord · de 177 a 72 nodos: request coalescing delante de la base | [`diagnostico/009-discord-coalescing`](diagnostico/009-discord-coalescing) · `coalesce-bench` |
+| 010 | anatomia | Stack Overflow · un solo servidor web: caché L1/L2 antes que la base | [`anatomia/010-stackoverflow-cache`](anatomia/010-stackoverflow-cache) · `cache-bench` |
 
 ## Videos largos (YouTube)
 | # | caso | código |
@@ -45,6 +46,7 @@ go run ./diagnostico/004-cloudflare-pingora/cmd/pool-bench
 go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
 go run ./anatomia/008-figma-multiplayer/cmd/multiplayer
 go run ./diagnostico/009-discord-coalescing/cmd/coalesce-bench
+go run ./anatomia/010-stackoverflow-cache/cmd/cache-bench
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
 go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
