@@ -35,6 +35,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 |---|---|---|
 | B01 | PHP2Shell · dos fallas críticas en el núcleo de PHP (CVE-2026-109618 y 109619) | [`boletin/b01-php-patch-check`](boletin/b01-php-patch-check) · `php-patch-check` |
 | B02 | Anthropic · Scion: por qué reemplazó Git en su monorepo | [`boletin/b02-content-addressed`](boletin/b02-content-addressed) · almacén direccionado por contenido |
+| B03 | GitLab · una regex con gravedad 10 de 10 (CVE-2026-110264) | [`boletin/b03-gitlab-patch-check`](boletin/b03-gitlab-patch-check) · `gitlab-patch-check` |
 
 ## Uso
 Un solo módulo de Go (1.24+), sin dependencias externas:
@@ -54,6 +55,7 @@ go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
 go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
 go run ./boletin/b01-php-patch-check --version 8.4.27
 go run ./boletin/b02-content-addressed checkout main
+go run ./boletin/b03-gitlab-patch-check --version 19.4.2-ee
 ```
 
 Licencia MIT · Duván Marín
