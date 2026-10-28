@@ -22,6 +22,11 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 007 | autopsia | AWS 2017 · un input mal escrito apagó S3 en us-east-1 | [`autopsia/007-aws-2017-s3`](autopsia/007-aws-2017-s3) · `capacity-guard` |
 | 009 | diagnostico | Discord · de 177 a 72 nodos: request coalescing delante de la base | [`diagnostico/009-discord-coalescing`](diagnostico/009-discord-coalescing) · `coalesce-bench` |
 
+## Videos largos (YouTube)
+| # | caso | código |
+|---|---|---|
+| L01 | CrowdStrike 2024 · faltaba 1 casilla: el Channel File 291 | [`autopsia/L01-crowdstrike-2024`](autopsia/L01-crowdstrike-2024) · `content-gate` |
+
 ## Boletines
 | # | noticia | código |
 |---|---|---|
@@ -40,6 +45,7 @@ go run ./anatomia/005-cloudflare-quicksilver/cmd/qs-mini demo
 go run ./diagnostico/009-discord-coalescing/cmd/coalesce-bench
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
+go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
 go run ./boletin/b01-php-patch-check --version 8.4.27
 go run ./boletin/b02-content-addressed checkout main
 ```
