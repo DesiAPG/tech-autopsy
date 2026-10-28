@@ -1,0 +1,137 @@
+{
+  "region": "us-east-1",
+  "maxBatchPct": 10,
+  "subsystems": {
+    "billing": {
+      "min": 2
+    },
+    "index": {
+      "min": 8
+    },
+    "placement": {
+      "min": 4
+    }
+  },
+  "nodes": [
+    {
+      "name": "s3-billing-01",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-02",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-03",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-04",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-05",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-06",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-07",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-08",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-09",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-10",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-11",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-billing-12",
+      "subsystem": "billing"
+    },
+    {
+      "name": "s3-index-01",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-02",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-03",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-04",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-05",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-06",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-07",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-08",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-09",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-10",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-11",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-index-12",
+      "subsystem": "index"
+    },
+    {
+      "name": "s3-placement-01",
+      "subsystem": "placement"
+    },
+    {
+      "name": "s3-placement-02",
+      "subsystem": "placement"
+    },
+    {
+      "name": "s3-placement-03",
+      "subsystem": "placement"
+    },
+    {
+      "name": "s3-placement-04",
+      "subsystem": "placement"
+    },
+    {
+      "name": "s3-placement-05",
+      "subsystem": "placement"
+    },
+    {
+      "name": "s3-placement-06",
+      "subsystem": "placement"
+    }
+  ]
+}
