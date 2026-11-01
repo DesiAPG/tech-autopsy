@@ -29,6 +29,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | # | caso | código |
 |---|---|---|
 | L01 | CrowdStrike 2024 · faltaba 1 casilla: el Channel File 291 | [`autopsia/L01-crowdstrike-2024`](autopsia/L01-crowdstrike-2024) · `content-gate` |
+| L02 | xz 2024 · medio segundo: la puerta trasera que vivía solo en el tarball | [`autopsia/L02-xz-2024`](autopsia/L02-xz-2024) · `release-diff` |
 
 ## Boletines
 | # | noticia | código |
@@ -54,6 +55,7 @@ go run ./autopsia/011-knight-capital-2012/cmd/deploy-verify
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
 go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
+go run ./autopsia/L02-xz-2024/cmd/release-diff -demo
 go run ./boletin/b01-php-patch-check --version 8.4.27
 go run ./boletin/b02-content-addressed checkout main
 go run ./boletin/b03-gitlab-patch-check --version 19.4.2-ee
