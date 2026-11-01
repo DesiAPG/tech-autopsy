@@ -24,6 +24,7 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 009 | diagnostico | Discord · de 177 a 72 nodos: request coalescing delante de la base | [`diagnostico/009-discord-coalescing`](diagnostico/009-discord-coalescing) · `coalesce-bench` |
 | 010 | anatomia | Stack Overflow · un solo servidor web: caché L1/L2 antes que la base | [`anatomia/010-stackoverflow-cache`](anatomia/010-stackoverflow-cache) · `cache-bench` |
 | 011 | autopsia | Knight Capital 2012 · el servidor sin deploy: 460 millones en 45 minutos | [`autopsia/011-knight-capital-2012`](autopsia/011-knight-capital-2012) · `deploy-verify` |
+| 012 | autopsia | Atlassian 2022 · el tipo de ID equivocado: 883 sitios borrados en 23 minutos | [`autopsia/012-atlassian-2022-soft-delete`](autopsia/012-atlassian-2022-soft-delete) · `softdel` |
 
 ## Videos largos (YouTube)
 | # | caso | código |
@@ -52,6 +53,7 @@ go run ./anatomia/008-figma-multiplayer/cmd/multiplayer
 go run ./diagnostico/009-discord-coalescing/cmd/coalesce-bench
 go run ./anatomia/010-stackoverflow-cache/cmd/cache-bench
 go run ./autopsia/011-knight-capital-2012/cmd/deploy-verify
+go run ./autopsia/012-atlassian-2022-soft-delete/cmd/softdel demo
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
 go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
