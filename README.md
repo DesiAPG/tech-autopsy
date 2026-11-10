@@ -26,6 +26,8 @@ Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de
 | 011 | autopsia | Knight Capital 2012 · el servidor sin deploy: 460 millones en 45 minutos | [`autopsia/011-knight-capital-2012`](autopsia/011-knight-capital-2012) · `deploy-verify` |
 | 012 | autopsia | Atlassian 2022 · el tipo de ID equivocado: 883 sitios borrados en 23 minutos | [`autopsia/012-atlassian-2022-soft-delete`](autopsia/012-atlassian-2022-soft-delete) · `softdel` |
 | 013 | anatomia | Slack · el anillo: tu mensaje a todo el mundo en 500 ms | [`anatomia/013-slack-hashing-consistente`](anatomia/013-slack-hashing-consistente) · `ring` |
+| 017 | anatomia | Google · Spanner y TrueTime: relojes atómicos para ordenar escrituras | [`anatomia/017-spanner-truetime`](anatomia/017-spanner-truetime) · `truetime` |
+| 018 | diagnostico | Twitter · partió el monolito: de Rails a la JVM y 143.199 tuits por segundo | [`diagnostico/018-twitter-fanout`](diagnostico/018-twitter-fanout) · `fanout` |
 
 ## Videos largos (YouTube)
 | # | caso | código |
@@ -56,6 +58,8 @@ go run ./anatomia/010-stackoverflow-cache/cmd/cache-bench
 go run ./autopsia/011-knight-capital-2012/cmd/deploy-verify
 go run ./autopsia/012-atlassian-2022-soft-delete/cmd/softdel demo
 go run ./anatomia/013-slack-hashing-consistente/cmd/ring demo
+go run ./anatomia/017-spanner-truetime/cmd/truetime demo
+go run ./diagnostico/018-twitter-fanout/cmd/fanout
 go run ./autopsia/006-cloudflare-2025-feature-file/cmd/config-gate check autopsia/006-cloudflare-2025-feature-file/testdata/v42.json -prev autopsia/006-cloudflare-2025-feature-file/testdata/v41.json
 go run ./autopsia/007-aws-2017-s3/cmd/capacity-guard --match 's3-*' --dry-run
 go run ./autopsia/L01-crowdstrike-2024/cmd/content-gate demo
