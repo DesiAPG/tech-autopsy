@@ -1,6 +1,6 @@
 # Caso 004 · Pingora: Cloudflare tiró NGINX (Cloudflare)
 
-> **Diagnóstico.** Video: *Cloudflare tiró NGINX* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Diagnóstico.** Video: *Cloudflare tiró NGINX* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La decisión
 El proxy que conecta a Cloudflare con internet atiende más de un billón de peticiones al día. Durante años fue NGINX. Cloudflare lo reemplazó por **Pingora**, su propio proxy en Rust, y con el mismo tráfico usa **un 70 % menos de CPU y un 67 % menos de memoria**.

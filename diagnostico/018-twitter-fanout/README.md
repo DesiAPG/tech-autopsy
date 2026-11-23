@@ -1,6 +1,6 @@
 # Caso 018 · Twitter partió el monolito
 
-> **Diagnóstico.** Video: *Twitter partió el monolito* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Diagnóstico.** Video: *Twitter partió el monolito* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La decisión
 El 3 de agosto de 2013, en Japón, Twitter recibió **143.199 tuits en un segundo** (unas 25 veces lo normal) y nadie lo notó. Tres años antes, el Mundial 2010 lo dejaba caído por ratos.

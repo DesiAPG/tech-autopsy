@@ -1,6 +1,6 @@
 # Caso 003 · LavaRand: lámparas de lava para la criptografía (Cloudflare)
 
-> **Anatomía.** Video: *Lámparas de lava que protegen internet* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *Lámparas de lava que protegen internet* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Cómo funciona
 En el lobby de la oficina de Cloudflare en San Francisco hay una pared de lámparas de lava. No es decoración: es **una fuente extra de entropía** para sus máquinas de producción (no la única).

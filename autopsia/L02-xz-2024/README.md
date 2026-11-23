@@ -1,6 +1,6 @@
 # L02 · Medio segundo: la puerta trasera de xz (2024)
 
-> **Autopsia (video largo).** YouTube: *La puerta trasera de xz: el ataque de 2 años que casi abre Linux* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia (video largo).** YouTube: *La puerta trasera de xz: el ataque de 2 años que casi abre Linux* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 29 de marzo de 2024, Andres Freund, desarrollador de PostgreSQL, publicó en la lista oss-security que el paquete xz/liblzma traía una puerta trasera (**CVE-2024-3094**, CVSS 10.0). Lo notó porque un login fallido por SSH tardaba **0,807 s** en lugar de **0,299 s**: medio segundo de más.

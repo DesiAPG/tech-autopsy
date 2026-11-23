@@ -1,6 +1,6 @@
 # Caso 013 · El anillo de Slack
 
-> **Anatomía.** Video: *El anillo de Slack* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *El anillo de Slack* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La arquitectura
 Slack entrega los mensajes en todo el mundo en **500 ms**, con decenas de millones de clientes conectados. Cada canal (que para Slack puede ser un canal normal, un usuario, un equipo, un archivo o un huddle) vive en un **Channel Server**: un servidor con estado que lo guarda en memoria. En horas pico, uno solo atiende **unos 16 millones de canales**.

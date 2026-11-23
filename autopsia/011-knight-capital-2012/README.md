@@ -1,6 +1,6 @@
 # Caso 011 · El servidor sin deploy (Knight Capital, 2012)
 
-> **Autopsia.** Video: *El servidor sin deploy* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia.** Video: *El servidor sin deploy* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 1 de agosto de 2012, Knight Capital (cerca del 10 % del volumen de acciones de EE. UU.) llevó código nuevo a **SMARS**, su router de órdenes, para el programa RLP de la NYSE. SMARS parte cada orden padre en órdenes hijas y un contador corta el envío cuando se completa.

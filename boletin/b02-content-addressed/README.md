@@ -1,6 +1,6 @@
 # Boletín B02 · Por qué Anthropic creó Scion (2026-10-13)
 
-> **Boletín de fin de semana.** Video: *Por qué Anthropic creó Scion* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Boletín de fin de semana.** Video: *Por qué Anthropic creó Scion* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 Anthropic contó en su blog de ingeniería que reemplazó Git en su monorepo por **Scion**, un sistema de control de versiones propio. En mayo de 2026 mergeaban unos **2.500** cambios al día; en septiembre, **más de 30.000**. Un equipo de **siete personas** lo construyó y migró el monorepo en **cinco meses**.

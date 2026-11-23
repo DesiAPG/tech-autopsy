@@ -1,6 +1,6 @@
 # Caso 010 · Stack Overflow en un servidor
 
-> **Anatomía.** Video: *Stack Overflow en un servidor* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *Stack Overflow en un servidor* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La arquitectura
 En 2016, toda la red de Stack Exchange servía **209 millones de peticiones HTTP al día** y **66 millones de páginas** con un puñado de máquinas: **11 servidores web**, **4 SQL Server**, **2 Redis**, 3 del motor de etiquetas, 3 de Elasticsearch y 4 balanceadores HAProxy. Según su propio equipo, les bastaba **1 servidor web**: "We have unintentionally tested this, successfully, a few times".

@@ -1,6 +1,6 @@
 # Caso 008 · El último que escribe gana (Figma)
 
-> **Anatomía.** Video: *El último que escribe gana* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *El último que escribe gana* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La arquitectura
 Figma descartó la *Operational Transformation* que popularizó Google Docs (*"unnecessarily complex for our problem space"*) y se quedó con ideas de CRDT, simplificadas gracias a un **servidor central** que decide el orden:

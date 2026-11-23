@@ -1,6 +1,6 @@
 # Caso 017 · Los relojes atómicos de Google
 
-> **Anatomía.** Video: *Los relojes atómicos de Google* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *Los relojes atómicos de Google* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La arquitectura
 Spanner es la base de datos global de Google. Para que una transacción que terminó antes que otra tenga siempre la marca de tiempo menor, en cualquier centro de datos del planeta, usa **TrueTime**:

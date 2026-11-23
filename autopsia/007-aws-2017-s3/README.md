@@ -1,6 +1,6 @@
 # Caso 007 · Un input apagó S3 (AWS, 2017-02-28)
 
-> **Autopsia.** Video: *Un input apagó S3* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia.** Video: *Un input apagó S3* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 28 de febrero de 2017, en us-east-1 (Virginia del Norte), Amazon S3 dejó de atender peticiones durante unas cuatro horas. No fue un ataque ni un fallo de hardware: fue **un comando de rutina con un input mal escrito**.

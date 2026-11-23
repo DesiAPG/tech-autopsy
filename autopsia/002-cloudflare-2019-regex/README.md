@@ -1,6 +1,6 @@
 # Caso 002 · Una regex tumbó Cloudflare (2019-07-02)
 
-> **Autopsia.** Video: *Una regex tumbó Cloudflare* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia.** Video: *Una regex tumbó Cloudflare* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 2 de julio de 2019, a las 13:42 UTC, Cloudflare desplegó una regla nueva en su WAF para detectar XSS. Pasó la revisión y los tests de CI, y en segundos llegó a todas sus máquinas. La regla contenía esta regex:

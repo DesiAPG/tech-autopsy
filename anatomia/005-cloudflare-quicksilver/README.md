@@ -1,6 +1,6 @@
 # Caso 005 · Quicksilver: un cambio en todo el planeta en segundos (Cloudflare)
 
-> **Anatomía.** Video: *Un cambio en todo el planeta en 2 segundos* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Anatomía.** Video: *Un cambio en todo el planeta en 2 segundos* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Cómo funciona
 Quicksilver es el sistema con el que Cloudflare lleva cada cambio de configuración (un registro DNS, una regla del WAF) a todas sus máquinas. En 2019, el 99 % de los cambios llegaba a todo el mundo en menos de **2,29 s**; en 2020 cubría 200 ciudades en 90 países.

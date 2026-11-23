@@ -1,6 +1,6 @@
 # L01 · Faltaba 1 casilla: CrowdStrike, 19 de julio de 2024
 
-> **Autopsia (video largo).** YouTube: *El error de CrowdStrike explicado* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia (video largo).** YouTube: *El error de CrowdStrike explicado* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 19 de julio de 2024, a las 04:09 UTC, CrowdStrike publicó una actualización de contenido de rutina (el **Channel File 291**) para su sensor Falcon en Windows. A las 05:27 UTC la revirtió. En esos 78 minutos, según Microsoft, cayeron unos **8,5 millones** de equipos Windows (menos del 1 % del total). Mac y Linux no se vieron afectados.

@@ -1,6 +1,6 @@
 # Caso 012 · El tipo de ID equivocado (Atlassian, 2022)
 
-> **Autopsia.** Video: *El tipo de ID equivocado* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia.** Video: *El tipo de ID equivocado* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 5 de abril de 2022, Atlassian tenía que borrar una app vieja (*Insight – Asset Management*) de los sitios de clientes que la tenían, porque ya venía integrada en Jira Service Management. Por un problema de comunicación entre equipos, al script le llegaron **los IDs de los sitios completos** en lugar de los IDs de la app.

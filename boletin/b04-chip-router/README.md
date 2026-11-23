@@ -1,6 +1,6 @@
 # Boletín B04 · Anthropic sale a bolsa: lo que muestra por dentro (2026-10-26)
 
-> **Boletín de fin de semana.** Video: *Anthropic sale a bolsa* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Boletín de fin de semana.** Video: *Anthropic sale a bolsa* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 26 de octubre de 2026, Anthropic presentó su formulario **S-1** ante la SEC para cotizar en el Nasdaq con el símbolo **ANT** (el precio por acción aún no está definido). El documento muestra:

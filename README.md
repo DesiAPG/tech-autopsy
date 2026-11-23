@@ -1,6 +1,6 @@
 # tech-autopsy · el laboratorio
 
-Código de los videos de **Tech Autopsy** ([@tech.autopsy](https://www.tiktok.com/@tech.autopsy)): cada caso real se analiza en video y aquí queda una demo o herramienta que reproduce el problema y su antídoto. El análisis completo de cada caso está en **[duvanmarin.dev](https://www.duvanmarin.dev)**.
+Código de los videos de **Autopsia Tech** ([@autopsia_tech](https://www.tiktok.com/@autopsia_tech)): cada caso real se analiza en video y aquí queda una demo o herramienta que reproduce el problema y su antídoto. El análisis completo de cada caso está en **[duvanmarin.dev](https://www.duvanmarin.dev)**.
 
 Todo sale de fuentes primarias (post-mortems oficiales y blogs de ingeniería de las propias empresas), enlazadas en cada README.
 

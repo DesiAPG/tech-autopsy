@@ -1,6 +1,6 @@
 # Caso 009 · De 177 a 72 nodos (Discord)
 
-> **Diagnóstico.** Video: *Discord, de 177 a 72 nodos* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Diagnóstico.** Video: *Discord, de 177 a 72 nodos* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## La decisión
 A inicios de 2022, Discord guardaba billones de mensajes en un clúster de **177 nodos de Cassandra**. El dolor eran las **particiones calientes**: cada mensaje se guarda por canal y por una ventana fija de tiempo, así que cuando un servidor enorme publica un anuncio, miles de personas leen la misma partición a la vez, esos nodos se saturan y la latencia sube en todo el clúster.

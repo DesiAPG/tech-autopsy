@@ -1,6 +1,6 @@
 # Caso 006 · El archivo que tumbó Cloudflare (2025-11-18)
 
-> **Autopsia.** Video: *El archivo que tumbó Cloudflare* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Autopsia.** Video: *El archivo que tumbó Cloudflare* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 18 de noviembre de 2025, a las 11:20 UTC, Cloudflare tuvo su peor caída desde 2019. No fue un ataque: fue un **archivo de configuración que duplicó su tamaño**.

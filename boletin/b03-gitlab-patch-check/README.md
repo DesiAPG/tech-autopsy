@@ -1,6 +1,6 @@
 # Boletín B03 · Una regex y GitLab: 10 de 10 (2026-10-21)
 
-> **Boletín de fin de semana.** Video: *Una regex y GitLab: 10 de 10* · [@tech.autopsy](https://www.tiktok.com/@tech.autopsy) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
+> **Boletín de fin de semana.** Video: *Una regex y GitLab: 10 de 10* · [@autopsia_tech](https://www.tiktok.com/@autopsia_tech) · análisis en [duvanmarin.dev](https://www.duvanmarin.dev)
 
 ## Qué pasó
 El 21 de octubre de 2026, GitLab publicó un parche crítico para **CVE-2026-110264** (CVSS 10.0): un desbordamiento de entero al compilar una expresión regular especialmente armada que, bajo ciertas condiciones, podía permitir a un usuario **sin autenticar** ejecutar código en el servidor. Afecta a GitLab CE/EE **autoalojado desde la versión 7.0**; GitLab.com y Dedicated ya estaban parchados.
